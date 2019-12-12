@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - openjdk8
+before_install:
+  - chmod +x gradlew
+
+notifications:
+  email: false
+  webhooks: http://95.161.217.83:8080/travis/hook
